@@ -7,6 +7,14 @@
              BackgroundColor="{StaticResource Gray100}">
     <VerticalStackLayout VerticalOptions="CenterAndExpand"
                          Padding="10">
+        <Label Text="Hotel Paradise"
+            FontSize="30"
+            FontFamily="Kalam"
+            HorizontalOptions="Center"
+            FontAttributes="Bold"
+            TextColor="{StaticResource Primary}"
+            Margin="0,10,0,25"/>
+        
         <Label Text="Cálculo da Diária"
                FontFamily="Kalam"
                FontSize="50"

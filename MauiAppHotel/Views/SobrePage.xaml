@@ -12,13 +12,22 @@
             <Image Source="hotel.png"
                    WidthRequest="120"
                    HeightRequest="120"
-                   HorizontalOptions="Center"/>
+                   HorizontalOptions="Center"
+                   Margin="0,10,0,25"/>
+            <Label Text="Hotel Paradise"
+            FontSize="30"
+            FontFamily="Kalam"
+            HorizontalOptions="Center"
+            FontAttributes="Bold"
+            TextColor="{StaticResource Primary}"/> 
 
             <Label Text="Sobre o App Hotel"
                    FontSize="26"
                    FontFamily="Kalam"
+                   FontAttributes="Bold"
                    HorizontalOptions="Center"
-                   TextColor="{StaticResource MidnightBlue}"/>
+                   TextColor="{StaticResource MidnightBlue}"
+                   Margin="0,0,0,20"/>
 
             <Frame Padding="15"
                    BackgroundColor="#eeeeee"
